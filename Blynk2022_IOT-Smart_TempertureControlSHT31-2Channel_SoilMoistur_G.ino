@@ -1,10 +1,10 @@
 /*
- * DIY of Things 
- * Youtube https://www.youtube.com/watch?v=XGlzRtQ0sV8&list=PL7QMc6hqe_hDbg3i8dbd81He7nyfHcZWF
- * Facebook https://www.facebook.com/DIYofThings
- * Website http://www.diyofthings.com/
- * Copyright DIY of Things 2021
- */
+ * DIYofThings
+ * CODE FOR EXPERMENTAL ONLY
+ * Contract Us : https://www.facebook.com/diyofthings
+ * Contract Us : https://www.youtube.com/diyofthings
+ * Only Shop   : https://shopee.co.th/diyofthings.shop
+*/
 
 #define BLYNK_PRINT Serial
 #define BLYNK_TEMPLATE_ID ""
