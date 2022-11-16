@@ -3,6 +3,7 @@
 ** CODE FOR EXPERMENTAL ONLY
 ** Contract Us : https://www.facebook.com/diyofthings
 ** Contract Us : https://www.youtube.com/diyofthings
+** Only Shop   : https://shopee.co.th/diyofthings.shop
 */
 
 #include <SPI.h>
