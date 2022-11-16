@@ -1,3 +1,10 @@
+/*
+** DEV By DIYofThings
+** CODE FOR EXPERMENTAL ONLY
+** Contract Us : https://www.facebook.com/diyofthings
+** Contract Us : https://www.youtube.com/diyofthings
+*/
+
 #include <SPI.h>
 #include <Wire.h>
 #include <Adafruit_GFX.h>
