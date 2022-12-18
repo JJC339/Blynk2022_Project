@@ -1,7 +1,7 @@
 #define BLYNK_PRINT Serial
 #define BLYNK_TEMPLATE_ID "TMPLeAIBWVR_"
 #define BLYNK_DEVICE_NAME "MQ2 Smoke Detection And  Line Notify"
-#define BLYNK_AUTH_TOKEN "zEwkjuVhM4YdGMltnslkkIXahYihe"
+#define BLYNK_AUTH_TOKEN "8oHJwr81W3uubkdQ--Tqz3GuiAK"
 
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
@@ -15,7 +15,7 @@ WidgetLED alertLED(V2);
 
 
 #include <TridentTD_LineNotify.h>
-#define LINE_TOKEN  "EEBqJ5uRLaX9SMCeMct5APAMlvUHDChIWMf8xfyf9ca"
+#define LINE_TOKEN  ""
 
 int analogValue,limit,alert = 0;
 
@@ -40,6 +40,7 @@ void setup()
   timer.setInterval(5000L,updateAndCompare);
 
   LINE.setToken(LINE_TOKEN);
+  LINE.notify("System Start...");
 }
 
 void loop()
@@ -50,6 +51,8 @@ void loop()
 
 void updateAndCompare()
 {
+  analogValue = 0;
+
   Serial.println("Update Analog Value...");
   for(int i=0;i<100;i++)
   {
