@@ -12,7 +12,7 @@
 // กำหนด wifi pass lineToken
 #define SSID ""
 #define PASSWORD ""
-//#define LINE_TOKEN ""
+//#define LINE_TOKEN "W76Mxz5S2FP4IWEMQJk07mqbGa4TgeGUy1Rb6sIELDe"
 #define LINE_TOKEN ""
 
 
